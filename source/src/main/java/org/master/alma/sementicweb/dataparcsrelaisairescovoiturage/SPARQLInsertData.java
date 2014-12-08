@@ -21,7 +21,7 @@ public class SPARQLInsertData extends SPARQLRequest {
         Model m =  ModelFactory.createDefaultModel();
         m.add(covoiturage);
         m.add(mobilite);
-
+        // ne fonctionne pas :(
         String queryString =
                 "PREFIX pdll: <http://lodpaddle.univ-nantes.fr/>" +
                 "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
@@ -45,7 +45,6 @@ public class SPARQLInsertData extends SPARQLRequest {
         UpdateRequest query = UpdateFactory.create(queryString);
         UpdateProcessor processor = UpdateExecutionFactory.create(query, GraphStoreFactory.create(m));
         processor.execute();
-        System.out.println("Liste parcs relais pouvant accueillir plus de 100 voitures");
         try {
             m.write(new FileOutputStream("example.owl"), "RDF/XML");
         } catch (FileNotFoundException e) {

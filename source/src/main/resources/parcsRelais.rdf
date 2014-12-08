@@ -16,8 +16,14 @@
     xmlns:prop-fr="http://fr.dbpedia.org/property/"
     xmlns:gr="http://purl.org/goodrelations/"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" > 
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" >
+
+    <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais">
+      <rdfs:subClassOf rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite"/>
+    </rdf:Description>
+
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20chronobus%20Pr%C3%A9%20Poulain">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20chronobus%20Pr%C3%A9%20Poulain" />
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44470</sc:postalCode>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4314</pdll:id>
@@ -44,6 +50,7 @@
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Vertou%20Nord">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Vertou%20Nord" />
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr</dbpprop:website>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
@@ -70,6 +77,7 @@
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.47916185458301</geo:long>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Fr%C3%AAne%20Rond">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Fr%C3%AAne%20Rond" />
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</pdll:bikeCapacity>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
@@ -96,6 +104,7 @@
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Goudy">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Goudy" />
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationnement vélo abrité, Vidéosurveillance, Interphonie sur la borne de sortie du parc.</pdll:features>
@@ -130,6 +139,7 @@
     <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Santos%20Dumont">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Santos%20Dumont" />
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</pdll:carCapacityForDisable>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue des Renards</dbpprop:location>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationnement vélos en consignes individuelles</pdll:features>
@@ -156,6 +166,7 @@
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Frachon">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Frachon" />
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</pdll:carCapacityForDisable>
@@ -182,6 +193,7 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Boulevard Salvador Allende</dbpprop:location>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20navibus%20Trentemoult-D%C3%A9p%C3%B4t">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20navibus%20Trentemoult-D%C3%A9p%C3%B4t" />
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Ordronneau</dbpprop:location>
@@ -208,6 +220,7 @@
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Neustrie%203">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Neustrie%203" />
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4310</pdll:id>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.59164987334643</geo:long>
@@ -234,6 +247,7 @@
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</pdll:carCapacityForDisable>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20busway%20Bourdonni%C3%A8res%202">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Bourdonni%C3%A8res%202" />
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
@@ -260,6 +274,7 @@
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Busway Ligne 4 Bourdonnières</pdll:mobilityServicesNearby>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tram-train%20La%20Chapelle%20Erdre%20Active">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20La%20Chapelle%20Erdre%20Active" />
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44240</sc:postalCode>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4346</pdll:id>
@@ -286,6 +301,7 @@
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Orvault%20Morli%C3%A8re">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Orvault%20Morli%C3%A8re" />
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue de la Morlière</dbpprop:location>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
@@ -312,6 +328,7 @@
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44700</sc:postalCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Pirmil">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Pirmil" />
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44200</sc:postalCode>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</pdll:bikeCapacity>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">222</pdll:carCapacity>
@@ -338,6 +355,7 @@
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Lignes 2 et 3 Pirmil</pdll:mobilityServicesNearby>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20La%20Beaujoire">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20La%20Beaujoire" />
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3192</pdll:id>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tan.fr</dbpprop:website>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
@@ -364,6 +382,7 @@
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationnement vélo en consignes individuelles, Vidéosurveillance, Interphonie</pdll:features>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%2Fchronobus%20Gare%20de%20Chantenay">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%2Fchronobus%20Gare%20de%20Chantenay" />
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER/chronobus Gare de Chantenay</foaf:name>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
@@ -390,6 +409,7 @@
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1975346063468</geo:lat>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Bignon">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Bignon" />
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2489752466115</geo:lat>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue des Verts Prés</dbpprop:location>
@@ -416,6 +436,7 @@
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%2Fchronobus%20La%20No%C3%AB">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%2Fchronobus%20La%20No%C3%AB" />
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pdll:carCapacityForDisable>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
@@ -442,6 +463,7 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER/chronobus La Noë</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Morli%C3%A8re%20Paquelais">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Morli%C3%A8re%20Paquelais" />
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
@@ -471,6 +493,7 @@
     <rdfs:label>Région des Pays de la Loire</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tram-train%20Haluch%C3%A8re%201">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20Haluch%C3%A8re%201" />
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</pdll:carCapacityForDisable>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
@@ -497,6 +520,7 @@
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20chronobus%20Papillons">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20chronobus%20Papillons" />
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1470165062331</geo:lat>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</pdll:bikeCapacity>
@@ -523,6 +547,7 @@
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Recteur%20Schmitt%201">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Recteur%20Schmitt%201" />
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Ligne 2 Recteur Schmitt</pdll:mobilityServicesNearby>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
@@ -549,6 +574,7 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Recteur Schmitt</dbpprop:location>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20busway%20Bourdonni%C3%A8res%201">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Bourdonni%C3%A8res%201" />
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tan.fr</dbpprop:website>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</pdll:carCapacityForDisable>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
@@ -575,6 +601,7 @@
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52133747737003</geo:long>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Marcel%20Paul">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Marcel%20Paul" />
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44800</sc:postalCode>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 44 44 44</sc:telephone>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
@@ -601,6 +628,7 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway Marcel Paul</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Plaisance">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Plaisance" />
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway Plaisance</foaf:name>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-HERBLAIN</dbpprop:town>
@@ -627,6 +655,7 @@
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">86</pdll:carCapacity>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Beaus%C3%A9jour">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Beaus%C3%A9jour" />
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pdll:carCapacityForDisable>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
@@ -653,6 +682,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tram-train%20La%20Chapelle-sur-Erdre%20Centre%20Ouest">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20La%20Chapelle-sur-Erdre%20Centre%20Ouest" />
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue de la Gare</dbpprop:location>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2968761970388</geo:lat>
@@ -679,6 +709,7 @@
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tram-train%20La%20Chapelle-Aulnay%20Ouest">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20La%20Chapelle-Aulnay%20Ouest" />
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pdll:carCapacityForDisable>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.3079307861029</geo:lat>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligne Tram-Train Nantes &lt; &gt; Chateaubriant</pdll:mobilityServicesNearby>
@@ -705,6 +736,7 @@
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44240</sc:postalCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20busway%20Chapeau%20Verni">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Chapeau%20Verni" />
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440190</dbpprop:insee>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route de Clisson</dbpprop:location>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
@@ -731,6 +763,7 @@
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Basse-Indre%20Sud">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Basse-Indre%20Sud" />
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pdll:carCapacityForDisable>
@@ -757,6 +790,7 @@
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</pdll:bikeCapacity>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Ranzay">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Ranzay" />
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route de Saint Joseph</dbpprop:location>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.53313665411229</geo:long>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -783,6 +817,7 @@
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de transport</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tram-train%20La%20Chapelle-sur-Erdre%20Centre%20Est">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20La%20Chapelle-sur-Erdre%20Centre%20Est" />
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2978015412892</geo:lat>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
@@ -809,6 +844,7 @@
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Vertou%20Sud">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Vertou%20Sud" />
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER Gare de Vertou Sud</foaf:name>
@@ -835,6 +871,7 @@
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20busway%20Mara%C3%AEchers">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Mara%C3%AEchers" />
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
@@ -861,6 +898,7 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais busway Maraîchers</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tram-train%20La%20Chapelle-Aulnay%20Est">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20La%20Chapelle-Aulnay%20Est" />
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pdll:carCapacityForDisable>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue du Manoir</dbpprop:location>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
@@ -887,6 +925,7 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Neustrie%201">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Neustrie%201" />
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tan.fr</dbpprop:website>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">127</pdll:carCapacity>
@@ -913,6 +952,7 @@
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Recteur%20Schmitt%202">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Recteur%20Schmitt%202" />
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-120404040</pdll:electricCarCapacity>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
@@ -939,6 +979,7 @@
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle d'accès.</dbpedia-owl:abstract>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20busway%20Porte%20de%20Vertou">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Porte%20de%20Vertou" />
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de transport</sc:price>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
@@ -965,6 +1006,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 44 44 44</sc:telephone>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tram-train%20Babini%C3%A8re">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20Babini%C3%A8re" />
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">48</pdll:bikeCapacity>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
@@ -991,6 +1033,7 @@
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%208%20Mai">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%208%20Mai" />
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</pdll:bikeCapacity>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais en ouvrage avec contrôle d'accès. Ouverture du lundi au samedi de 6h à 22h et fermeture les dimanches et jours fériés.Mode d'emploi : stationnez votre véhicule et achetez votre titre de transport au distributeur en station de Tramway, Busway ou auprès de l'agent Tan. A votre retour, la sortie est contrôlée par un agent Tan présent sur place ou par lecture du code-barres au dos de chaque titre de transport.</dbpedia-owl:abstract>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway 8 Mai</foaf:name>
@@ -1017,6 +1060,7 @@
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20chronobus%20Planchonnais">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20chronobus%20Planchonnais" />
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:features>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-LUCE-SUR-LOIRE</dbpprop:town>
@@ -1043,6 +1087,7 @@
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20des%20Pas%20Enchant%C3%A9s">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20des%20Pas%20Enchant%C3%A9s" />
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER Gare des Pas Enchantés</foaf:name>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3552</pdll:id>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</pdll:carCapacity>
@@ -1069,6 +1114,7 @@
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44230</sc:postalCode>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Bouaye">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Bouaye" />
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gare TER de Bouaye :Ligne Nantes-Ste Pazanne-PornicLigne Nantes-Challans-St Gilles Croix de VieLigne Nantes-St Jean de Monts</pdll:mobilityServicesNearby>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUAYE</dbpprop:town>
@@ -1095,6 +1141,7 @@
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.68257543659362</geo:long>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20navibus%20Trentemoult-Roquios">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20navibus%20Trentemoult-Roquios" />
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
@@ -1121,6 +1168,7 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440143</dbpprop:insee>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Le%20Cardo">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Le%20Cardo" />
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3189</pdll:id>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tan.fr</dbpprop:website>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de transport</sc:price>
@@ -1147,6 +1195,7 @@
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Ligne 2 Le Cardo</pdll:mobilityServicesNearby>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Basse-Indre%20Nord">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Basse-Indre%20Nord" />
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER Gare de Basse-Indre Nord</foaf:name>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.66058829388856</geo:long>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
@@ -1173,6 +1222,7 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de la Gare</dbpprop:location>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20chronobus%20Chantrerie%20-%20Grandes%20Ecoles">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20chronobus%20Chantrerie%20-%20Grandes%20Ecoles" />
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Chronobus C6 Chantrerie - Grandes Ecoles</pdll:mobilityServicesNearby>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais chronobus Chantrerie - Grandes Ecoles</foaf:name>
@@ -1199,6 +1249,7 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Grande%20Ouche">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Grande%20Ouche" />
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">33</pdll:carCapacity>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.57947203525665</geo:long>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -1225,6 +1276,7 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway Grande Ouche</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Neustrie%202">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Neustrie%202" />
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais en enclos accessible 24h/24 et 7j/7, avec contrôle d'accès de 6h à 22h du lundi au samedi. Mode d'emploi : stationnez votre véhicule et achetez votre titre de transport au distributeur en station de Tramway, Busway ou auprès de l'agent Tan. A votre retour, la sortie est contrôlée par un agent Tan présent sur place ou par lecture du code-barres au dos de chaque titre de transport.</dbpedia-owl:abstract>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.59339969648243</geo:long>
@@ -1251,6 +1303,7 @@
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Pont-Rousseau">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Pont-Rousseau" />
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3648</pdll:id>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 44 44 44</sc:telephone>
@@ -1277,6 +1330,7 @@
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">6</pdll:carCapacityForDisable>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Trocardi%C3%A8re">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Trocardi%C3%A8re" />
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-120404040</pdll:electricCarCapacity>
@@ -1303,6 +1357,7 @@
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Cou%C3%ABron">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Cou%C3%ABron" />
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
@@ -1329,6 +1384,7 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER Gare de Couëron</foaf:name>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Mauves-sur-Loire">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Mauves-sur-Loire" />
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3565</pdll:id>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Place de la Gare</dbpprop:location>
@@ -1355,6 +1411,7 @@
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Ren%C3%A9%20Cassin">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Ren%C3%A9%20Cassin" />
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
     <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -1381,6 +1438,7 @@
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2639509260101</geo:lat>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Fran%C3%A7ois%20Mitterrand">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Fran%C3%A7ois%20Mitterrand" />
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tan.fr</dbpprop:website>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.63948414305523</geo:long>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
@@ -1407,6 +1465,7 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3190</pdll:id>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20busway%20Gr%C3%A9neraie">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20busway%20Gr%C3%A9neraie" />
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3628</pdll:id>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
@@ -1433,6 +1492,7 @@
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20de%20Thouar%C3%A9-sur_Loire">
+    <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20de%20Thouar%C3%A9-sur_Loire" />
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER de Thouaré-sur_Loire</foaf:name>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2647119908848</geo:lat>
