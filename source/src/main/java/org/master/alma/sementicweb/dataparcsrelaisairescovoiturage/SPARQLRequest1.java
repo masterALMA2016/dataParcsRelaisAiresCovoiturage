@@ -16,21 +16,24 @@ public class SPARQLRequest1 extends SPARQLRequest {
 
     @Override
     void execute() {
-        Model model = getModel(inputFileName);
+        Model model = getModel(DataSet.PARCS_RELAIS);
 
         String queryString =
                 "PREFIX dbpprop: <http://dbpedia.org/property/>" +
                 "PREFIX foaf: <http://xmlns.com/foaf/0.1/> " +
+                "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> " +
+                "PREFIX pdll: <http://lodpaddle.univ-nantes.fr/>" +
                 "SELECT ?name " +
                 "WHERE {" +
-                "      ?aireDeCovoiturage dbpprop:town \"ST-HERBLAIN\"^^<http://www.w3.org/2001/XMLSchema#string> ."+
-                "      ?aireDeCovoiturage foaf:name ?name" +
+                "      ?parcRelais rdf:type pdll:parcsRelais . " +
+                "      ?parcRelais dbpprop:town \"ST-HERBLAIN\"^^<http://www.w3.org/2001/XMLSchema#string> ."+
+                "      ?parcRelais foaf:name ?name" +
                 "}";
 
         Query query = QueryFactory.create(queryString);
         QueryExecution qe = QueryExecutionFactory.create(query, model);
         ResultSet results = qe.execSelect();
-        System.out.println("Liste des aires de covoiturages situés à St Herblain");
+        System.out.println("Liste des parcs relais situés à St Herblain");
         ResultSetFormatter.out(System.out, results, query);
         qe.close();
 
