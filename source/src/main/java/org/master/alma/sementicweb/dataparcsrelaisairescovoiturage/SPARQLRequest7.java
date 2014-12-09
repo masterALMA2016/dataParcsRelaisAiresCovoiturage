@@ -28,16 +28,17 @@ public class SPARQLRequest7 extends SPARQLRequest {
                         "PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>"+
                         "PREFIX dbpprop: <http://dbpedia.org/property/>" +
                         "PREFIX bif: <bif:>"+
-                        "SELECT ?pop ?parcRelaisName ?townName " +
+                        "SELECT ?populationTown ?townName ?parcRelaisName " +
                         "WHERE {" +
                         "      ?parcRelais rdf:type pdll:parcsRelais ."+
                         "      ?parcRelais foaf:name ?parcRelaisName . "+
-                        "      ?parcRelais dbpprop:town ?townName ."+
+                        "      ?parcRelais dbpprop:town ?townNameRelais ."+
                         "      SERVICE <http://dbpedia.org/sparql> {" +
                         "            ?town rdf:type dbpedia-owl:Settlement . " +
-                        "            ?town dbpprop:population ?pop . " +
-                        "            ?town dbpprop:name ?townNameEn ." +
-                        "            ?townNameEn bif:contains ?townName } "+
+                        "            ?town dbpprop:population ?populationTown . " +
+                        "            ?town dbpprop:name ?townName ." +
+                        "            FILTER (STR(?townNameRelais) = STR(?townName) )  "+
+                        "       } "+
                         "}";
 
 
@@ -45,7 +46,7 @@ public class SPARQLRequest7 extends SPARQLRequest {
         Query query = QueryFactory.create(queryString);
         QueryExecution qe = QueryExecutionFactory.create(query, m);
         ResultSet results = qe.execSelect();
-        System.out.println("Liste des parcs relais par commune et nombre de places par habitant");
+        System.out.println("Liste des parcs relais par commune avec leur nombre d'habitants");
         ResultSetFormatter.out(System.out, results, query);
         qe.close();
 

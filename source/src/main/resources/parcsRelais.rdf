@@ -16,8 +16,7 @@
     xmlns:prop-fr="http://fr.dbpedia.org/property/"
     xmlns:gr="http://purl.org/goodrelations/"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-    xmlns:dc="http://purl.org/dc/elements/1.1/" >
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
 
     <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais">
       <rdfs:subClassOf rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite"/>
@@ -37,7 +36,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.44604469439019</geo:long>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440204</dbpprop:insee>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THOUARE-SUR-LOIRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thouaré-sur-Loire</dbpprop:town>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -63,7 +62,7 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER Gare de Vertou Nord</foaf:name>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertou</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
@@ -101,7 +100,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1906228420922</geo:lat>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Sébastien</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Sébastien-sur-Loire</dbpprop:town>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Goudy">
@@ -127,7 +126,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 44 44 44</sc:telephone>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Gabriel Goudy</dbpprop:location>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway Goudy</foaf:name>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.5410477469437</geo:long>
   </rdf:Description>
@@ -164,7 +163,7 @@
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44300</sc:postalCode>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Frachon">
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Frachon" />
@@ -174,7 +173,7 @@
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">156</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-HERBLAIN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3188</pdll:id>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44800</sc:postalCode>
@@ -215,7 +214,7 @@
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440143</dbpprop:insee>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Navibus Loire</pdll:mobilityServicesNearby>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.58068768637466</geo:long>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezé</dbpprop:town>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:features>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
@@ -226,7 +225,7 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4310</pdll:id>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.59164987334643</geo:long>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUGUENAIS</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouguenais</dbpprop:town>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Ligne 3 Neustrie</pdll:mobilityServicesNearby>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
@@ -257,7 +256,7 @@
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</pdll:bikeCapacity>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais busway Bourdonnières 2</foaf:name>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.186401501745</geo:lat>
@@ -285,7 +284,7 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de la Bérangerais</dbpprop:location>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-SUR-ERDRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Chapelle-sur-Erdre</dbpprop:town>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440035</dbpprop:insee>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2831147498899</geo:lat>
@@ -322,7 +321,7 @@
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">302</pdll:carCapacity>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2467766477065</geo:lat>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway Orvault Morlière</foaf:name>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORVAULT</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orvault</dbpprop:town>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de transport</sc:price>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
@@ -341,7 +340,7 @@
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue Esnoult des Châtelets</dbpprop:location>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54144839889655</geo:long>
@@ -378,7 +377,7 @@
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais en enclos accessible 24h/24 et 7j/7, avec contrôle d'accès de 6h à 22h du lundi au samedi. Mode d'emploi : stationnez votre véhicule et achetez votre titre de transport au distributeur en station de Tramway, Busway ou auprès de l'agent Tan. A votre retour, la sortie est contrôlée par un agent Tan présent sur place ou par lecture du code-barres au dos de chaque titre de transport.</dbpedia-owl:abstract>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">382</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de Transport</sc:price>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationnement vélo en consignes individuelles, Vidéosurveillance, Interphonie</pdll:features>
   </rdf:Description>
@@ -406,7 +405,7 @@
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21</pdll:carCapacity>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</pdll:carCapacityForDisable>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1975346063468</geo:lat>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Bignon">
@@ -419,7 +418,7 @@
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44700</sc:postalCode>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORVAULT</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orvault</dbpprop:town>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationnement vélo en consignes individuelles</pdll:features>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway Bignon</foaf:name>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10</pdll:bikeCapacity>
@@ -449,7 +448,7 @@
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:features>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.43902005915263</geo:long>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440204</dbpprop:insee>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THOUARE-SUR-LOIRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thouaré-sur-Loire</dbpprop:town>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">69</pdll:carCapacity>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2661206435125</geo:lat>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Chronobus C7 Centre de ThouaréGare TER de Thouaré</pdll:mobilityServicesNearby>
@@ -474,7 +473,7 @@
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3583</pdll:id>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44700</sc:postalCode>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORVAULT</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orvault</dbpprop:town>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.60283874722482</geo:long>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway 3  Orvault Morlière</pdll:mobilityServicesNearby>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -497,7 +496,7 @@
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tram-train%20Haluch%C3%A8re%201" />
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</pdll:carCapacityForDisable>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2484503442291</geo:lat>
@@ -526,7 +525,7 @@
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1470165062331</geo:lat>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</pdll:bikeCapacity>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LES-SORINIERES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Les Sorinières</dbpprop:town>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440198</dbpprop:insee>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">57</pdll:carCapacity>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue des Papillons</dbpprop:location>
@@ -558,7 +557,7 @@
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5</pdll:carCapacityForDisable>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais en ouvrage avec contrôle d'accès. Ouverture du lundi au samedi de 6h à 22h et fermeture les dimanches et jours fériés.Mode d'emploi : stationnez votre véhicule et achetez votre titre de transport au distributeur en station de Tramway, Busway ou auprès de l'agent Tan. A votre retour, la sortie est contrôlée par un agent Tan présent sur place ou par lecture du code-barres au dos de chaque titre de transport.</dbpedia-owl:abstract>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2517352538688</geo:lat>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tan.fr</dbpprop:website>
@@ -596,7 +595,7 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3629</pdll:id>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais busway Bourdonnières 1</foaf:name>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.52133747737003</geo:long>
@@ -624,7 +623,7 @@
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de transport</sc:price>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-HERBLAIN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440162</dbpprop:insee>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway Marcel Paul</foaf:name>
   </rdf:Description>
@@ -632,7 +631,7 @@
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Plaisance" />
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tramway Plaisance</foaf:name>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-HERBLAIN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.59344052396589</geo:long>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pdll:carCapacityForDisable>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
@@ -677,7 +676,7 @@
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Ligne 3 Beauséjour</pdll:mobilityServicesNearby>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">62</pdll:carCapacity>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
@@ -687,7 +686,7 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue de la Gare</dbpprop:location>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2968761970388</geo:lat>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-SUR-ERDRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Chapelle-sur-Erdre</dbpprop:town>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44</pdll:carCapacity>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54876772911246</geo:long>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440035</dbpprop:insee>
@@ -716,7 +715,7 @@
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligne Tram-Train Nantes &lt; &gt; Chateaubriant</pdll:mobilityServicesNearby>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-SUR-ERDRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Chapelle-sur-Erdre</dbpprop:town>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Avenue Olympe de Gouges</dbpprop:location>
@@ -743,7 +742,7 @@
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Sébastien</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Sébastien-sur-Loire</dbpprop:town>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -778,7 +777,7 @@
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.66103809646199</geo:long>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-HERBLAIN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">60</pdll:carCapacity>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2041579741319</geo:lat>
@@ -814,7 +813,7 @@
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">245</pdll:carCapacity>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Ligne1 Ranzay</pdll:mobilityServicesNearby>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de transport</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tram-train%20La%20Chapelle-sur-Erdre%20Centre%20Est">
@@ -835,7 +834,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligne Tram-Train Nantes &lt; &gt; Chateaubriant</pdll:mobilityServicesNearby>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-SUR-ERDRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Chapelle-sur-Erdre</dbpprop:town>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de l'Erdre</dbpprop:location>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4342</pdll:id>
@@ -847,7 +846,7 @@
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Vertou%20Sud">
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Vertou%20Sud" />
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertou</dbpprop:town>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER Gare de Vertou Sud</foaf:name>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
@@ -882,7 +881,7 @@
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">75</pdll:carCapacity>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertou</dbpprop:town>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3655</pdll:id>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44120</sc:postalCode>
@@ -911,7 +910,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">40</pdll:bikeCapacity>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abris Vélo, Distributeur de titre de transport TER &amp; TAN.</pdll:features>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-SUR-ERDRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Chapelle-sur-Erdre</dbpprop:town>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54104919057664</geo:long>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
@@ -937,7 +936,7 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais en enclos accessible 24h/24 et 7j/7, avec contrôle d'accès de 6h à 22h du lundi au samedi. Mode d'emploi : stationnez votre véhicule et achetez votre titre de transport au distributeur en station de Tramway, Busway ou auprès de l'agent Tan. A votre retour, la sortie est contrôlée par un agent Tan présent sur place ou par lecture du code-barres au dos de chaque titre de transport.</dbpedia-owl:abstract>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUGUENAIS</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouguenais</dbpprop:town>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3562</pdll:id>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1754532342509</geo:lat>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationnement vélo abrité et consignes individuelles, Vidéosurveillance, Interphonie sur la borne de sortie du parc.</pdll:features>
@@ -957,7 +956,7 @@
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-120404040</pdll:electricCarCapacity>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.55247038464754</geo:long>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationnement vélo en consignes individuelles</pdll:features>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
@@ -987,7 +986,7 @@
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1801752959869</geo:lat>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais en enclos accessible 24h/24 et 7j/7, avec contrôle d'accès de 6h à 22h du lundi au samedi. Mode d'emploi : stationnez votre véhicule et achetez votre titre de transport au distributeur en station de Tramway, Busway ou auprès de l'agent Tan. A votre retour, la sortie est contrôlée par un agent Tan présent sur place ou par lecture du code-barres au dos de chaque titre de transport.</dbpedia-owl:abstract>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VERTOU</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vertou</dbpprop:town>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Busway Ligne 4 Porte de Vertou</pdll:mobilityServicesNearby>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -1023,7 +1022,7 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ligne Tram-Train Nantes &lt; &gt; Chateaubriant</pdll:mobilityServicesNearby>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440035</dbpprop:insee>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LA-CHAPELLE-SUR-ERDRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">La Chapelle-sur-Erdre</dbpprop:town>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais tram-train Babinière</foaf:name>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2</pdll:carCapacityForDisable>
@@ -1056,7 +1055,7 @@
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</pdll:carCapacityForDisable>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tan.fr</dbpprop:website>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezé</dbpprop:town>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3194</pdll:id>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
   </rdf:Description>
@@ -1064,7 +1063,7 @@
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20chronobus%20Planchonnais" />
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</pdll:features>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SAINTE-LUCE-SUR-LOIRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sainte-Luce-sur-Loire</dbpprop:town>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Chronobus C7 La Planchonnais</pdll:mobilityServicesNearby>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44980</sc:postalCode>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de la Planchonnais</dbpprop:location>
@@ -1092,7 +1091,7 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER Gare des Pas Enchantés</foaf:name>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3552</pdll:id>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Saint-Sébastien-sur-Loire</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Sébastien-sur-Loire</dbpprop:town>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</pdll:bikeCapacity>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -1118,7 +1117,7 @@
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Bouaye" />
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gare TER de Bouaye :Ligne Nantes-Ste Pazanne-PornicLigne Nantes-Challans-St Gilles Croix de VieLigne Nantes-St Jean de Monts</pdll:mobilityServicesNearby>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUAYE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouaye</dbpprop:town>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1383223686803</geo:lat>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44830</sc:postalCode>
@@ -1144,7 +1143,7 @@
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20navibus%20Trentemoult-Roquios">
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20navibus%20Trentemoult-Roquios" />
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezé</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.57778393206355</geo:long>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
@@ -1192,7 +1191,7 @@
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAN</dbpprop:owner>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.58451198079141</geo:long>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORVAULT</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orvault</dbpprop:town>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Ligne 2 Le Cardo</pdll:mobilityServicesNearby>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Basse-Indre%20Nord">
@@ -1211,7 +1210,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.2043736318374</geo:lat>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-HERBLAIN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440162</dbpprop:insee>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
@@ -1232,7 +1231,7 @@
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4311</pdll:id>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">268</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</pdll:bikeCapacity>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440109</dbpprop:insee>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Route de Gachet</dbpprop:location>
@@ -1261,7 +1260,7 @@
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44340</sc:postalCode>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUGUENAIS</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouguenais</dbpprop:town>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stationnement vélos en consignes individuelles</pdll:features>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1819948350479</geo:lat>
@@ -1297,7 +1296,7 @@
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Ligne 3 Neustrie</pdll:mobilityServicesNearby>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de transport</sc:price>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BOUGUENAIS</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bouguenais</dbpprop:town>
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rue de la Neustrie</dbpprop:location>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440020</dbpprop:insee>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
@@ -1306,7 +1305,7 @@
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20TER%20Gare%20de%20Pont-Rousseau">
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20TER%20Gare%20de%20Pont-Rousseau" />
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3648</pdll:id>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezé</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 44 44 44</sc:telephone>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1925010229049</geo:lat>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.54828253376638</geo:long>
@@ -1338,7 +1337,7 @@
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1832927458839</geo:lat>
     <pdll:mobilityServicesNearby rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Station Tramway Ligne 3 Trocardière</pdll:mobilityServicesNearby>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REZE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rezé</dbpprop:town>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">16</pdll:bikeCapacity>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle d'accès.</dbpedia-owl:abstract>
@@ -1372,7 +1371,7 @@
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abri vélos, Distributeur de titre de transport TER &amp; TAN.</pdll:features>
     <geo:long rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">-1.72363750160792</geo:long>
     <sc:postalCode rdf:datatype="http://www.w3.org/2001/XMLSchema#string">44220</sc:postalCode>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUERON</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Couëron</dbpprop:town>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">30</pdll:carCapacity>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
@@ -1391,7 +1390,7 @@
     <dbpprop:location rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2 Place de la Gare</dbpprop:location>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.nantesmetropole.fr/</dbpprop:website>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAUVES-SUR-LOIRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mauves-sur-Loire</dbpprop:town>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <dbpprop:insee rdf:datatype="http://www.w3.org/2001/XMLSchema#int">440094</dbpprop:insee>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
@@ -1414,7 +1413,7 @@
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Ren%C3%A9%20Cassin">
     <owl:sameAs rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite/Parc%20relais%20tramway%20Ren%C3%A9%20Cassin" />
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
@@ -1460,7 +1459,7 @@
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">24</pdll:bikeCapacity>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 44 44 44</sc:telephone>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-HERBLAIN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Herblain</dbpprop:town>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">-120404040</pdll:electricCarCapacity>
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais en ouvrage avec contrôle d'accès. Ouverture du lundi au samedi de 6h à 22h et fermeture les dimanches et jours fériés.Mode d'emploi : stationnez votre véhicule et achetez votre titre de transport au distributeur en station de Tramway, Busway ou auprès de l'agent Tan. A votre retour, la sortie est contrôlée par un agent Tan présent sur place ou par lecture du code-barres au dos de chaque titre de transport.</dbpedia-owl:abstract>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3190</pdll:id>
@@ -1479,7 +1478,7 @@
     <dbpprop:website rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.tan.fr</dbpprop:website>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Titre de transport</sc:price>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANTES</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes</dbpprop:town>
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">02 40 44 44 44</sc:telephone>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">230</pdll:carCapacity>
     <pdll:features rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Box vélo abrité et sécurisé, Vidéosurveillance, Interphonie sur la borne de sortie du parc.</pdll:features>
@@ -1514,7 +1513,7 @@
     <dbpedia-owl:abstract rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc-relais accessible 24h/24 et 7j/7 sans contrôle daccès.</dbpedia-owl:abstract>
     <pdll:carCapacityForDisable rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</pdll:carCapacityForDisable>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">123</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THOUARE-SUR-LOIRE</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thouaré-sur-Loire</dbpprop:town>
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <dbpprop:owner rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nantes Métropole</dbpprop:owner>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</pdll:typeLabel>
