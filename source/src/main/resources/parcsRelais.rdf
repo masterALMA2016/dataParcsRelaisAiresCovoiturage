@@ -16,7 +16,8 @@
     xmlns:prop-fr="http://fr.dbpedia.org/property/"
     xmlns:gr="http://purl.org/goodrelations/"
     xmlns:foaf="http://xmlns.com/foaf/0.1/"
-    xmlns:xsd="http://www.w3.org/2001/XMLSchema#" >
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" >
 
     <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais">
       <rdfs:subClassOf rdf:resource="http://lodpaddle.univ-nantes.fr/mobilite"/>
@@ -100,7 +101,7 @@
     <sc:telephone rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</sc:telephone>
     <geo:lat rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">47.1906228420922</geo:lat>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Sébastien</dbpprop:town>
     <sc:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Libre</sc:price>
   </rdf:Description>
   <rdf:Description rdf:about="http://lodpaddle.univ-nantes.fr/parcsRelais/Parc%20relais%20tramway%20Goudy">
@@ -742,7 +743,7 @@
     <pdll:electricCarCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</pdll:electricCarCapacity>
     <pdll:CategoryLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc Relais</pdll:CategoryLabel>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">46</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saint-Sébastien</dbpprop:town>
     <pdll:hasBikeFeature rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Non</pdll:hasBikeFeature>
     <pdll:typeLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Enclos</pdll:typeLabel>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>
@@ -1091,7 +1092,7 @@
     <foaf:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parc relais TER Gare des Pas Enchantés</foaf:name>
     <pdll:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3552</pdll:id>
     <pdll:carCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">84</pdll:carCapacity>
-    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ST-SEBASTIEN</dbpprop:town>
+    <dbpprop:town rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">Saint-Sébastien-sur-Loire</dbpprop:town>
     <gr:acceptedPaymentMethod rdf:datatype="http://www.w3.org/2001/XMLSchema#string">undefined</gr:acceptedPaymentMethod>
     <pdll:bikeCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">36</pdll:bikeCapacity>
     <rdf:type rdf:resource="http://lodpaddle.univ-nantes.fr/parcsRelais"/>

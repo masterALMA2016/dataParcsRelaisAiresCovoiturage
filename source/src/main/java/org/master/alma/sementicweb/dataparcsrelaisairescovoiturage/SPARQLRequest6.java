@@ -37,7 +37,7 @@ public class SPARQLRequest6 extends SPARQLRequest {
         Query query = QueryFactory.create(queryString);
         QueryExecution qe = QueryExecutionFactory.create(query, m);
         ResultSet results = qe.execSelect();
-        System.out.println("Liste des parcs relais et leur capacité (à partir des objets de type mobilité)");
+        System.out.println("Liste des lieux de mobilité ayant des places de parkings (à partir des objets de type mobilité)");
         ResultSetFormatter.out(System.out, results, query);
         qe.close();
 

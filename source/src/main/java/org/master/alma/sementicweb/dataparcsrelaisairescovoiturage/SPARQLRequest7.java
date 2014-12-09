@@ -27,21 +27,25 @@ public class SPARQLRequest7 extends SPARQLRequest {
                         "PREFIX pdll: <http://lodpaddle.univ-nantes.fr/>" +
                         "PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>"+
                         "PREFIX dbpprop: <http://dbpedia.org/property/>" +
-                        "SELECT ?name ?pop " +
+                        "PREFIX bif: <bif:>"+
+                        "SELECT ?pop ?parcRelaisName ?townName " +
                         "WHERE {" +
-                        "      ?parcRelais rdf:type pdll:parcsrelais . " +
-                        "      ?parcRelais pdll:carCapacity ?carCapacity ."+
-                        "      ?parcRelais foaf:name ?name ." +
+                        "      ?parcRelais rdf:type pdll:parcsRelais ."+
+                        "      ?parcRelais foaf:name ?parcRelaisName . "+
+                        "      ?parcRelais dbpprop:town ?townName ."+
                         "      SERVICE <http://dbpedia.org/sparql> {" +
                         "            ?town rdf:type dbpedia-owl:Settlement . " +
-                        "            ?town dbpprop:population ?pop "+
-                        "      } "+
+                        "            ?town dbpprop:population ?pop . " +
+                        "            ?town dbpprop:name ?townNameEn ." +
+                        "            ?townNameEn bif:contains ?townName } "+
                         "}";
+
+
 
         Query query = QueryFactory.create(queryString);
         QueryExecution qe = QueryExecutionFactory.create(query, m);
         ResultSet results = qe.execSelect();
-        System.out.println("Liste des parcs relais et leur capacité (à partir des objets de type mobilité)");
+        System.out.println("Liste des parcs relais par commune et nombre de places par habitant");
         ResultSetFormatter.out(System.out, results, query);
         qe.close();
 
