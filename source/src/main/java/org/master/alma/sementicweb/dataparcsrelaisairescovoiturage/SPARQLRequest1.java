@@ -26,7 +26,7 @@ public class SPARQLRequest1 extends SPARQLRequest {
                 "SELECT ?name " +
                 "WHERE {" +
                 "      ?parcRelais rdf:type pdll:parcsRelais . " +
-                "      ?parcRelais dbpprop:town \"ST-HERBLAIN\"^^<http://www.w3.org/2001/XMLSchema#string> ."+
+                "      ?parcRelais dbpprop:town \"Saint-Herblain\"^^<http://www.w3.org/2001/XMLSchema#string> ."+
                 "      ?parcRelais foaf:name ?name" +
                 "}";
 
